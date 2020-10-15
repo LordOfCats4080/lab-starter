@@ -26,14 +26,14 @@ steps:
 # Step 1: Set up working environment 
 - title: Setting up your environment
   description: Learn how to set up an environment to run JavaScript in easily.
-  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  event: issues.issue.state
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
 # Step 2: Learn data types
 - title: JavaScript data types
   description: Learn the most common JavaScript data types, and some of the others.
-  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  event: issues.issue.state
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
