@@ -23,38 +23,38 @@ before:
 # Create one step for each action that a learner will complete
 
 steps:
-# Step 1: INTERNAL COMMENT DESCRIBING STEP 
-- title: # the title of the step, shown to the learner in the course progress page
-  description: # a description of the step, shown to the learner in the course progress page
+# Step 1: Set up working environment 
+- title: Setting up your environment
+  description: Learn how to set up an environment to run JavaScript in easily.
   event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
   actions: # a list of the actions that will occur when the step is triggered by an event
   - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 2: INTERNAL COMMENT FOR STEP 2
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-#  actions: # a list of the actions that will occur when the step is triggered by an event
-#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+# Step 2: Learn data types
+- title: JavaScript data types
+  description: Learn the most common JavaScript data types, and some of the others.
+  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 3: INTERNAL COMMENT FOR STEP 3
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-#  actions: # a list of the actions that will occur when the step is triggered by an event
-#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+# Step 3: Performing methods and functions
+- title: Using methods and functions
+  description: Learn how methods and functions work, how to use them, and how to create them.
+  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 4: INTERNAL COMMENT FOR STEP 4
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-#  actions: # a list of the actions that will occur when the step is triggered by an event
-#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+# Step 4: Using classes and constructors
+- title: Using classes and constructors
+  description: Learn what a class is, how it goes together with constructors, and how you should use it.
+  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
-# Step 5: INTERNAL COMMENT FOR STEP 5
-# - title: # the title of the step, shown to the learner in the course progress page
-#  description: # a description of the step, shown to the learner in the course progress page
-#  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
-#  actions: # a list of the actions that will occur when the step is triggered by an event
-#  - type: # the type of action, full list at https://lab.github.com/docs/actions
+# Step 5: Going hand-to-hand with the HTML DOM
+- title: Going hand-to-hand with the HTML DOM
+  description: Learn how JavaScript can go greatly with the HTML DOM, and how it can interpret its data.
+  event: # the event that will trigger the actions to be executed, full list at https://developer.github.com/v3/activity/events/types/
+  actions: # a list of the actions that will occur when the step is triggered by an event
+  - type: # the type of action, full list at https://lab.github.com/docs/actions
 
